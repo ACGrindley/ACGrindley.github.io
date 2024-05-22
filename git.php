@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>GIT</title>
-		<link rel="stylesheet" href="stylesheet.css">
-		<a href="index.html">HOME</a>
-		<a href="cv.html">CV</a>
-		<a href="git.html">GIT</a>
-	</head>
+<?php include('header.php');?>
 
-	<body>
+<div class="content text-center">
+    <div class="wrapper">
+
 		<h1>git</h1>
 		<h2>Installation</h2>
 		<p>
@@ -35,10 +29,10 @@
 		3. Commit staged files "git commit -m "Message text...".<br>
 		4. Push to GitHub "git push".
 		</p>
+
+
+        <div class="clearfix"></div>
+    </div>
+</div>
 	
-		<footer>
-			<p>Ashley Chrisitan Grindley<br>
-			<a href="mailto:ashleygrindley@live.co.uk">ashleygrindley@live.co.uk</a></p>
-		</footer>
-	</body>
-</html>
+<?php include('footer.php');?>
